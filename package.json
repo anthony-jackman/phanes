@@ -1,0 +1,20 @@
+{
+  "name": "phanes",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A front end to hold distance learning (DL) perfomance support tools (PST)",
+  "author": {
+    "name": "Anthony Jackman",
+    "email": "anthony-jackman@serco-na.com"
+  },
+  "keywords": [
+    "vuejs",
+    "learning management system",
+    "vite"
+  ],
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/anthony-jackman/phanes/issues"
+  },
+  "homepage": "https://github.com/anthony-jackman/phanes#readme",
+}
