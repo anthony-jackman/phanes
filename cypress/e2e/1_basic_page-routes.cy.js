@@ -13,4 +13,8 @@ describe('Basic page routes', () => {
     cy.visit('/gt');
     cy.contains('h1', 'Group Trials');
   });
+  it('Visits the course detail page', () => {
+    cy.visit('/crsedetails');
+    cy.contains('h1', 'Course Details');
+  });
 });
