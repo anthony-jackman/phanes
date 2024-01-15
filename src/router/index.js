@@ -13,6 +13,11 @@ const router = createRouter({
       path: '/users',
       name: 'users',
       component: () => import('@/pages/UserManagementView.vue')
+    },
+    {
+      path: '/gt',
+      name: 'GroupTrials',
+      component: () => import('@/pages/GroupTrialView.vue')
     }
   ]
 });

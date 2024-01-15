@@ -1,0 +1,36 @@
+{
+    "Vue SFC Setup": {
+        "prefix": "v:base",
+        "body": [
+            "<script ${1| setup,​|}>",
+            "",
+            "</script>",
+            "",
+            "<template>",
+            "\t$2",
+            "</template>",
+            ""
+        ],
+        "description": "Vue SFC with js setup syntax"
+    },
+    "Vue SFC 3 elements": {
+        "prefix": "v:base3",
+        "body": [
+            "<script setup>",
+            "",
+            "</script>",
+            "",
+            "<template>",
+						"\t<div>",
+						"\t\t$0",
+						"\t</div>",
+            "</template>",
+            "",
+            "<style lang=\"scss\">",
+            "",
+            "</style>",
+            ""
+        ],
+        "description": "Vue SFC with js setup and style"
+    }
+}
