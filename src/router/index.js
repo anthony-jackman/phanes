@@ -33,6 +33,11 @@ const router = createRouter({
       path: '/crsedelivery',
       name: 'CourseDelivery',
       component: () => import('@/pages/CourseDeliveryView.vue')
+    },
+    {
+      path: '/analysis',
+      name: 'Analysis',
+      component: () => import('@/pages/AnalysisView.vue')
     }
   ]
 });
