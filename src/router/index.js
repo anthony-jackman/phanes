@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/helpdesk',
       name: 'HelpDesk',
       component: () => import('@/pages/HelpDeskView.vue')
+    },
+    {
+      path: '/crsedelivery',
+      name: 'CourseDelivery',
+      component: () => import('@/pages/CourseDeliveryView.vue')
     }
   ]
 });
