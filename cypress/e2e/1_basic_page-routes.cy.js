@@ -9,4 +9,8 @@ describe('Basic page routes', () => {
     cy.visit('/users');
     cy.contains('h1', 'User Management');
   });
+  it('Visits the group trials page', () => {
+    cy.visit('/gt');
+    cy.contains('h1', 'Group Trials');
+  });
 });
