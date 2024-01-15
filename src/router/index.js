@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/gt',
       name: 'GroupTrials',
       component: () => import('@/pages/GroupTrialView.vue')
+    },
+    {
+      path: '/crsedetails',
+      name: 'CourseDetails',
+      component: () => import('@/pages/CourseDetailView.vue')
     }
   ]
 });
