@@ -25,4 +25,8 @@ describe('Basic page routes', () => {
     cy.visit('/crsedelivery');
     cy.contains('h1', 'Course Delivery');
   });
+  it('Visits the analysis page', () => {
+    cy.visit('/analysis');
+    cy.contains('h1', 'System and Course Analysis');
+  });
 });
