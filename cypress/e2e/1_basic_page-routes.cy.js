@@ -21,4 +21,8 @@ describe('Basic page routes', () => {
     cy.visit('/helpdesk');
     cy.contains('h1', 'Helpdesk');
   });
+  it('Visits the course delivery page', () => {
+    cy.visit('/crsedelivery');
+    cy.contains('h1', 'Course Delivery');
+  });
 });
