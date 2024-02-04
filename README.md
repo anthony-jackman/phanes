@@ -36,6 +36,8 @@ Phanes is a god that was adopted into Greek mythology from Orphic traditions. In
 
 ## Accolades
 - XXXXXXX. (WEBSITE URL) What did I borrow?
+- A more modern CSS Reset (Josh Comeau)[https://www.joshwcomeau.com/css/custom-css-reset/]
+- 
 
 ## Development Specifics
 
