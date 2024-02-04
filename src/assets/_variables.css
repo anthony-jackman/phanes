@@ -1,0 +1,7 @@
+:root {
+  --primary-color: hsla(197, 32%, 61%, 1.0); /* baby-blue */
+  --secondary-color: hsla(198, 55%, 21%, 1.0); /* slate-blue */
+  --accent-color-1: hsla(201, 64%, 13%, 1.0); /* navy-blue */
+  --accent-color-2: hsla(13, 82%, 53%, 1.0); /* red-color */
+  --accent-color-3: hsla(140, 6%, 52%, 1.0); /* tan-color */
+}
