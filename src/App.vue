@@ -9,7 +9,11 @@ import { RouterLink, RouterView } from 'vue-router';
       </nav>
   </header>
 
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
+  
+  <footer></footer>
 </template>
 
 <style scoped>
