@@ -1,4 +1,4 @@
-import { Layout, List, AddEdit } from '../components/UserComponents/users';
+import { Layout, List, AddEdit } from '@/views/User/users';
 
 export default {
     path: '/users',

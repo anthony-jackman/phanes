@@ -1,5 +1,5 @@
 <script setup>
-import { Alert } from '@/components/UserComponents';
+import { Alert } from '@/views/User';
 import { useAlertStore } from '@/stores';
 
 const alertStore = useAlertStore();

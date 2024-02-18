@@ -1,4 +1,4 @@
-import { Layout, Login, Register } from '@/components/UserComponents/account';
+import { Layout, Login, Register } from '@/views/User/account';
 
 export default {
     path: '/account',
