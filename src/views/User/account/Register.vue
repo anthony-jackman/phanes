@@ -36,6 +36,11 @@ async function onSubmit(values) {
     <div class="card-body">
       <Form @submit="onSubmit" :validation-schema="schema" v-slot="{ errors, isSubmitting }">
         <div class="form-group">
+          <!-- <BaseInput
+            v-model="firstName"
+            label="First Name"
+            type="text"
+          /> -->
           <label>First Name</label>
           <Field name="firstName" type="text" class="form-control" :class="{ 'is-invalid': errors.firstName }" />
           <div class="invalid-feedback">{{ errors.firstName }}</div>

@@ -13,11 +13,22 @@ if (authStore.user) {
 </script>
 
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8 offset-sm-2 mt-5">
+  <div class="wrapper">
+
+      <!-- <div class="wrapper"> -->
         <router-view />
-      </div>
-    </div>
+      <!-- </div> -->
+
   </div>
 </template>
+
+<style scoped>
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+</style>
