@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, defineProps, defineEmits } from 'vue';
+import { ref, computed, defineEmits } from 'vue';
 import { v4 as uuidv4 } from 'uuid';
 
 const props = defineProps({
