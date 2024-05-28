@@ -28,6 +28,7 @@ Phanes is a god that was adopted into Greek mythology from Orphic traditions. In
 - Panacea (VueJS v3 front-end to process "Help Me" events/data)
 - Hephaestus (VueJS v3 front-end to process course delivery events/data)
 - Muses (VueJS v3 front-end to process analytic events/data)
+- Pluto (User Management)
 - "TBD" (VueJS v3 front-end to process course details events/data)
 
 ## Authors and Contributors
