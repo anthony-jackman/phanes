@@ -10,26 +10,26 @@ Phanes is a god that was adopted into Greek mythology from Orphic traditions. In
 
 - ViteJS / VueJS (version 3)
 - Reliance on modern CSS methods
+  - CSS Grid and Flexbox
+  - CSS Custom Variables 
 - Full responsive design
   - Intended to be used within modern browsers on desktops and mobile devices
 - Unit and E2E BDD principles
   - Includes 508 / WCAG 2.1 Level AA conformancy automatic testing/verification
   - Cypress e2e and vue component testing and node testrunner for javascript unit testing
-- Embedded User module
-  - Full role-based CRUD operations
-- Simple easy to use grid system
+- Full role-based CRUD operations
 
 ### This app will rely on connectivity to and/or the following modules:
 
-- Prometheus (Fastify v4 backend with MongoDB database)
+- [Prometheus](https://github.com/users/anthony-jackman/projects/8) (Fastify v4 backend with MongoDB database)
   - Common backend to below modules and this Phanes project
   - Prometheus is planned for hosting within its own VM
-- Rhea (VueJS v3 front-end to process group trial events/data)
-- Panacea (VueJS v3 front-end to process "Help Me" events/data)
-- Hephaestus (VueJS v3 front-end to process course delivery events/data)
-- Muses (VueJS v3 front-end to process analytic events/data)
-- Pluto (User Management)
-- "Horus" (VueJS v3 front-end to process course details events/data)
+- [Rhea](https://github.com/users/anthony-jackman/projects/18) (VueJS v3 front-end to process group trial events/data)
+- [Panacea](https://github.com/users/anthony-jackman/projects/12) (VueJS v3 front-end to process "Help Me" events/data)
+- [Hephaestus](https://github.com/users/anthony-jackman/projects/13) (VueJS v3 front-end to process course delivery events/data)
+- [Muses](https://github.com/users/anthony-jackman/projects/14) (VueJS v3 front-end to process analytic events/data)
+- [Pluto](https://github.com/users/anthony-jackman/projects/15) (User Management)
+- [Horus](https://github.com/users/anthony-jackman/projects/16) (VueJS v3 front-end to process course details events/data)
 
 ## Authors and Contributors
 
